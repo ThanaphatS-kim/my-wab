@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="timeslct.css">
+    <title>Time</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="picture">
+            <img class="movie-picture" src="img\1.jpeg" alt="">
+            <h1>Her</h1>
+        </div>
+        <div class="detailselect-movie">
+            <a>25 November 2024</a>
+            <p>16+ | ⌚2h6m | Drama</p>
+            <p>In a Los Angeles of the slight future, a lonely writer develops a relationship with “Samantha,” an
+                insightful and sensitive artificial entity.</p>
+            <button class="seeshwtime">Details</button>
+        </div>
+    </div>
+    <div class="sidebar">
+        <i class="left-menu-icon fas fa-search"></i>
+        <i class="left-menu-icon fas fa-home"></i>
+        <i class="left-menu-icon fas fa-bookmark"></i>
+    </div>
+    <div class="containercalen">
+        <div class="wrapper">
+            <header>
+                <p class="current-date"></p>
+                <div class="icons">
+                    <span id="prev" class="material-symbols-rounded">chevron_left</span>
+                    <span id="next" class="material-symbols-rounded">chevron_right</span>
+                </div>
+            </header>
+            <div class="calender">
+                <ul class="weeks">
+                    <li>Sun</li>
+                    <li>Mon</li>
+                    <li>Tue</li>
+                    <li>Wed</li>
+                    <li>Thu</li>
+                    <li>Fri</li>
+                    <li>Sat</li>
+                </ul>
+                <ul class="days"></ul>
+            </div>
+        </div>
+    </div>
+    <section class="home">
+        <div class="bscd-header collapse-header">
+            <h2 class="showtime" id="">
+                <a href="#">
+                    <img src="img\SCBK_Logo.png" alt="">
+                    Seacon Bangkae
+                </a>
+            </h2>
+        </div>
+        <div class="slctshwtime collapse show">
+            <div class="theartre-list">
+                <ul class="bsc-movie">
+                    <li>THEATRE 1 | 🔊TH/EN | 3Ⓓ</li>
+                </ul>
+            </div>
+            <div class="theatrelisttime">
+                <ul class="slcttmlist">
+                    <li>11:30</li>
+                    <li>14:00</li>
+                    <li>16:30</li>
+                    <li>19:00</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="timeslct.js" defer></script>
+
+</html>
